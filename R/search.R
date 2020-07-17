@@ -2,7 +2,6 @@ library(sf)
 library(stars)
 library(motif)
 library(tmap)
-library(grid)
 
 gm = read_stars("data/geomorphons_pol.tif")
 suw_lp = read_sf("data/suw_lp.gpkg")
