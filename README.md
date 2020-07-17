@@ -9,5 +9,5 @@ You can find the packages' installation code in [`R/package-installation.R`](R/p
 
 1. Basic signatures - [`R/basic-signatures.R`](R/basic_signatures.R)
 2. Spatial pattern search - [`R/search.R`](R/search.R)
-3. Spatial pattern comparison - [`R/comparision.R`](R/comparison.R)
+3. Spatial pattern comparison - [`R/comparison.R`](R/comparison.R)
 4. Spatial pattern clustering - [`R/clustering.R`](R/clustering.R)
