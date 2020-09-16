@@ -6,7 +6,7 @@ library(readr)
 lc92 = read_stars("data/lc_am_1992.tif")
 lc18 = read_stars("data/lc_am_2018.tif")
 
-lc_palette_df = read.csv("data/lc_palette.csv")
+lc_palette_df = read_csv("data/lc_palette.csv")
 names(lc_palette_df$color) = lc_palette_df$value
 
 tm_compare1 = tm_shape(c(lc92, lc18)) +
