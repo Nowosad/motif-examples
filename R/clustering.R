@@ -109,7 +109,7 @@ tmap_arrange(
         tm_plot(eco_3286, "8")
 )
 
-eco_grid_sfq = lsp_add_quality(eco_grid_sf, eco_dist)
+eco_grid_sfq = lsp_add_quality(eco_grid_sf, eco_dist, type = "segmentation")
 eco_grid_sfq2 = eco_grid_sfq %>%
         group_by(clust) %>%
         summarise(inhomogeneity = mean(inhomogeneity),
