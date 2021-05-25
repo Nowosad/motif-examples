@@ -1,6 +1,6 @@
 install.packages("remotes")
 pkgs = c("stars", "sf", "tmap",
          "dplyr", "readr", "osfr",
-         "motif")
+         "spdep", "motif")
 remotes::install_cran(pkgs)
 
